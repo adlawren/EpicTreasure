@@ -140,11 +140,11 @@ sudo sh rustup.sh
 cargo install ripgrep
 
 # Personal config
-sudo sudo apt-get -y install stow
-cd $HOMEDIR
-rm .bashrc
-git clone --recursive https://github.com/ctfhacker/dotfiles
-cd dotfiles
-./install.sh
+# sudo sudo apt-get -y install stow
+# cd $HOMEDIR
+# rm .bashrc
+# git clone --recursive https://github.com/ctfhacker/dotfiles
+# cd dotfiles
+# ./install.sh
 
 

@@ -18,8 +18,8 @@ Vagrant.configure("2") do |config|
   config.vm.network "private_network", type: "dhcp"
 
   config.vm.provider "virtualbox" do |vb|
-    vb.customize ["modifyvm", :id, "--memory", "8192"]
-    vb.customize ["modifyvm", :id, "--cpus", "4"]
+    vb.customize ["modifyvm", :id, "--memory", "2048"]
+    vb.customize ["modifyvm", :id, "--cpus", "2"]
   end
 
 end
